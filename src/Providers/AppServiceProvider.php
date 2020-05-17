@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->useDatabasePath(dirname(__DIR__) . DIRECTORY_SEPARATOR);
+        $this->app->useAppPath(dirname(__DIR__));
+        $this->app->useDatabasePath(dirname(__DIR__) . DIRECTORY_SEPARATOR . 'Database');
     }
 
     /**
