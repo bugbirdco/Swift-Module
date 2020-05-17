@@ -11,7 +11,8 @@
         "fruitcake/laravel-cors": "^1.0",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
-        "orchid/platform": "^7.2"
+        "orchid/platform": "^7.2",
+        "composer/installers": "~1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
