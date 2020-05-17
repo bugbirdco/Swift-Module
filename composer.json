@@ -1,7 +1,7 @@
 {
     "name": "bugbirdco/swift-module",
     "type": "laravel-library",
-    "description": "Contained service module for a swift host and includes @orchidsoftware. Based on @bugbirdco/quick",
+    "description": "Contained service module for a Swift host and includes Orchid Platform. Based on bugbirdco/quick",
     "license": "BSD-3-Clause",
     "require": {
         "php": "^7.2.5",
